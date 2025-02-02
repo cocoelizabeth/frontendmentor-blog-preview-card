@@ -1,63 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Blog preview card</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <!-- FONTS -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;700;800&display=swap" rel="stylesheet">
-  <!-- CSS  -->
-  <link rel="stylesheet" href="styles.css">
-</head>
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS  -->
+    <link rel="stylesheet" href="css-reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
   <body>
-
     <div class="blog-card-container">
-
-      
-      <div class="image-container">
-
-        <img class="image" src="assets/images/illustration-article.svg">
-
+      <div class="hero-image-container">
+        <img class="hero-image" src="assets/images/illustration-article.svg" />
       </div>
-        <div class="text container">
-          <div class="tag">
-            Learning
-          </div>
-          <div class="date">Published 21 Dec 2023</div>
-          <div class="title">HTML & CSS foundations</div>
-          <div class="description">
-            These languages are the backbone of every website, defining structure, content, and presentation.
-          </div>
-          <div class="author-container">
-            <div class="author-photo"></div>
-            <div class="author-name">Greg Hooper</div>
-          </div>
+      <div class="text-container">
+        <div class="tag text-preset-3 extra-bold">Learning</div>
+        <div class="date text-preset-3 medium">Published 21 Dec 2023</div>
+        <div class="title text-preset-1 extra-bold">HTML & CSS foundations</div>
+        <div class="description text-preset-2 medium">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
         </div>
-    
+        <div class="author-container">
+          <div class="author-photo">
+            <img src="assets/images/image-avatar.webp" />
+          </div>
+          <div class="author-name text-preset-3 extra-bold">Greg Hooper</div>
+        </div>
+      </div>
     </div>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-    
+
     <!-- <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </div> -->
   </body>
-
-
-
 </html>
