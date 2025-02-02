@@ -84,7 +84,7 @@ body {
   box-shadow: 8px 8px 0px 0px #000000;
 }
 
-.hero-image-container {
+.featured-image-container {
   height: 200px;
   padding: 0;
   border-radius: 10px;
@@ -96,10 +96,9 @@ img {
   object-fit: cover;
   object-position: center;
   border-radius: 10px;
-  /* margin-top:-1px; */
 }
 
-.tag {
+.category {
   margin-top: var(--spacing-300);
   padding: var(--spacing-50) var(--spacing-150);
   background-color: var(--color-yellow);
@@ -107,7 +106,7 @@ img {
   border-radius: 4px;
 }
 
-.date {
+.post-date {
   margin-top: var(--spacing-150);
 }
 
@@ -120,18 +119,17 @@ img {
   cursor: pointer;
 }
 
-.description {
+.excerpt {
   margin-top: var(--spacing-150);
 }
 
-.author-container {
+.blog-author-container {
   display: flex;
   align-items: center;
   margin-top: var(--spacing-300);
 }
 
-.author-photo {
-  /* background-color: red; */
+.blog-author-photo {
   height: 32px;
   width: 32px;
   margin-right: var(--spacing-150);

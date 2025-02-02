@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./solution-screenshot.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -40,8 +40,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://cocoelizabeth.github.io/frontendmentor-blog-preview-card/](https://cocoelizabeth.github.io/frontendmentor-blog-preview-card/)
+
+- Solution/Live Site URL: [https://cocoelizabeth.github.io/frontendmentor-blog-preview-card/](https://cocoelizabeth.github.io/frontendmentor-blog-preview-card/)
 
 ## My process
 
