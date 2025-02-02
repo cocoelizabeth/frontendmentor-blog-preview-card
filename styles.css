@@ -114,9 +114,22 @@ img {
   margin-top: var(--spacing-150);
 }
 
-.title:hover {
+.title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.title a:hover {
   color: var(--color-yellow);
   cursor: pointer;
+}
+
+.title a:focus {
+  outline: none;
+  background-color: var(--color-gray-500);
+  color: var(--color-white);
+  padding: var(--spacing-50);
+  border-radius: 4px;
 }
 
 .excerpt {
